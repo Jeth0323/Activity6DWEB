@@ -100,8 +100,10 @@ echo "<p class='tag'>Total verse lines: $verselines</p>";
 //Created by: James Jethro P. Dizon
 //Section: WD-203
 //Date created: November 19 2025
+//What i did: i created a program where i need to call nouns, verbs and adjectives in order for it to appear on my php line by line and wrote the lyrics of one of my favorite songs titled L.O.V.E made by Frank Sinatra.
 ?>
 </div>
 
 </body>
+
 </html>
