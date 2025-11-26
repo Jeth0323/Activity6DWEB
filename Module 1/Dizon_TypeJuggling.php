@@ -1,0 +1,13 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href ="css/styles.css">
+    </head>
+    <body>
+
+    </body>
+</html>
