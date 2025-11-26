@@ -18,7 +18,8 @@ do {
     echo '$price *$packs';
     echo '<br>';
     $packs--;
-}while ($packs > 0)
+}while ($packs => 0)
 ?>
     </body>
+
 </html>
