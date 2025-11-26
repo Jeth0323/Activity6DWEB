@@ -1,5 +1,5 @@
 <?php
-$packs = 20;
+$packets = 20;
 $price = 1.50;
 ?>
 <!DOCTYPE html>
@@ -13,13 +13,14 @@ $price = 1.50;
 <h2> Prices for Packs of Chocolate</h2>
 <?php 
 do {
-    echo $packs;
-    echo ' packs cost $';
+    echo $packets;
+    echo ' packets cost $';
     echo '$price *$packs';
     echo '<br>';
-    $packs--;
-}while ($packs => 0)
+    $packets--;
+}while ($packets => 0)
 ?>
     </body>
 
 </html>
+
