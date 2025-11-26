@@ -1,26 +1,23 @@
 <?php
-$packets = 20;
-$price = 1.50;
+$box = 20;
+$price = 1.75;
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Do WHILE LOOPS </title>
+        <title>DO WHILE LOOPS </title>
         <link rel="stylesheet" href ="css/styles.css">
     </head>
     <body>
 <h1>The Chocolate Factory</h1>
-<h2> Prices for Packs of Chocolate</h2>
+<h2> Prices for each Boxes of Chocolate</h2>
 <?php 
 do {
-    echo $packets;
-    echo ' packets cost $';
-    echo '$price *$packs';
-    echo '<br>';
-    $packets--;
-}while ($packets => 0)
+    echo $box;
+    echo 'each box costs $';
+    echo '$price * $box';
+    $box--;
+}while ($box > 10)
 ?>
     </body>
-
 </html>
-
